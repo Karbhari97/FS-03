@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HomeWork2-Assignment</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <style>
+    </style>
+</head>
+
+<body id="root">
+
+    <script>
+        let divref = React.createElement('div', {
+            style: {
+                marginLeft: "500px",
+                textAlign: 'center',
+                marginTop: "100px",
+                border: "2px solid black",
+                padding: '30px',
+                width: '300px',
+                background: 'whitesmoke'
+            }
+        }, [
+            React.createElement('img', {
+                src: "https://tse2.mm.bing.net/th?id=OIP.Oj1Gm4A0np3kULIxkKomagHaE8&pid=Api&P=0&h=180",
+                style: {
+                    width: "200px",
+                    Height: "200px",
+                    borderRadius: "50px",
+
+                }
+            }, null),
+
+            React.createElement('h1', { style: { color: "rgb(99,102,106)" } }, "Alexandra Caulea"),
+            React.createElement('h4', { style: { color: "black" } }, "I Enjoy Drinking Cup Of Coffee Everyday"),
+
+            React.createElement('div', { style: { display: "flex", justifyContent: "space-around", marginBottom: "0px" } }, [
+
+                React.createElement('h2', { style: { color: "rgb(155,0,155)" } }, "172"),
+                React.createElement('h2', { style: { color: "rgb(155,0,155)" } }, "47"),
+                React.createElement('h2', { style: { color: "rgb(155,0,155)" } }, "20"),
+            ]),
+            React.createElement('div', { style: { display: "flex", justifyContent: "space-around", postion: "absolute" } }, [
+
+                React.createElement('h3', { style: { color: "rgb(99,102,106)" } }, "Posts"),
+                React.createElement('h3', { style: { color: "rgb(99,102,106)" } }, "Followers"),
+                React.createElement('h3', { style: { color: "rgb(99,102,106)" } }, "Following"),
+            ])
+            ,
+            React.createElement('div', { style: { display: "flex", justifyContent: "space-evenly", marginTop: "20px" } }, [
+                React.createElement('button', { style: { padding: "15px", background: "rgb(155,0,155)", color: "whitesmoke", border: "none", borderRadius: "15px" } }, "FOLLOW"),
+                React.createElement('button', { style: { padding: "15px", background: "rgb(234,84,128)", color: "whitesmoke", border: "none", borderRadius: "15px" } }, "MESSAGE")])
+        ]);
+
+        ReactDOM.render(divref, document.getElementById('root'));
+    </script>
+</body>
+
+</html>
