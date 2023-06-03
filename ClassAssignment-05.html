@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body id="root"
+    style="margin: 0%;background-image:url(https://c0.wallpaperflare.com/preview/872/732/38/backlit-dawn-wallpaper-hd-wallpaper.jpg);background-size: cover;">
+    <script type="text/babel">
+        let styleo = { marginRight: "50px", listStyleType: "none", color: "white" }
+
+        let divref = <div style={{ display: "flex", justifyContent: 'space-between', backgroundColor: "black" }}>
+            <div style={{ margin: "5px 15px" }}>
+                <img src="https://png.pngtree.com/element_pic/00/16/09/2057e0eecf792fb.jpg" alt="" width="50px" />
+            </div>
+
+            <ul style={{ display: "flex" }} >
+                <a style={{ textDecoration: "none" }} href="Home"><li style={styleo}>Home</li></a>
+                <a style={{ textDecoration: "none" }} href="#"><li style={styleo}>About</li></a>
+                <a style={{ textDecoration: "none" }} href="#"><li style={styleo}>Menu</li></a>
+                <a style={{ textDecoration: "none" }} href="#"><li style={styleo}>Order</li></a>
+                <a style={{ textDecoration: "none" }} href="#"><li style={styleo}>Contact</li></a>
+            </ul>
+        </div>
+
+        ReactDOM.render(divref, document.getElementById('root'));
+    </script>
+
+</body>
+
+</html>
