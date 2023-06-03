@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Class Assignment - 02</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+
+<body id="root">
+    <script>
+        let divref = React.createElement('div', null,
+            [React.createElement('h2', null, "Karbhari Gadekar"),
+            React.createElement('p', null, "System Engineer At Infosys"),
+            React.createElement('a', { href: 'https://www.linkedin.com/in/karbhari-gadekar-85001221a/', style: { margin: '10px', } }, "linkdin"),
+            React.createElement('a', { href: 'https://github.com/Karbhari97' }, "Github"),
+            React.createElement('h2', { style: { borderTop: '1px solid grey',padding:'10px' } }, "Experience"),
+            React.createElement('h3', null, "Software Devloper at Amazone"),
+            React.createElement('p', null, "I work with amazon in transportation team, some more description Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ullam! Maxime officiis consequuntur libero eaque reprehenderit quisquam nam ab vitae totam id commodi laborum enim, sint ea odit quasi soluta! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident iusto ut praesentium modi. Incidunt atque voluptatem, dignissimos officiis reprehenderit est!"),
+            React.createElement('h3', { style: { borderTop: '1px solid grey',padding:'10px'  } }, "Educator at Geekster"),
+            React.createElement('p', null, "I work with amazon in transportation team, some more description Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ullam! Maxime officiis consequuntur libero eaque reprehenderit quisquam nam ab vitae totam id commodi laborum enim, sint ea odit quasi soluta! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident iusto ut praesentium modi. Incidunt atque voluptatem, dignissimos officiis reprehenderit est!"),
+            React.createElement('h3', { style: { borderTop: '1px solid grey',padding:'10px'  } }, "Skills"),
+            React.createElement('ul', null, [
+                React.createElement('li', null, "Javascript"),
+                React.createElement('li', null, "Html"),
+                React.createElement('li', null, "css"),
+                React.createElement('li', null, "Springboot"),
+                React.createElement('li', null, "Angular"),]),
+            React.createElement('h3', { style: { borderTop: '1px solid grey',padding:'10px'  } }, "Hobbies"),
+            React.createElement('ol', null, [
+                React.createElement('li', null, "Reading"),
+                React.createElement('li', null, "Playing Cricket"),
+                React.createElement('li', null, "Exploring new things"),
+                React.createElement('li', null, "Teaching"),]),
+            ]);
+
+
+
+
+
+
+
+
+        ReactDOM.render(divref, document.getElementById('root'));
+    </script>
+</body>
+
+</html>
