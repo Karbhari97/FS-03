@@ -25,9 +25,11 @@
                 <a style={{ textDecoration: "none" }} href="#"><li style={styleo}>Order</li></a>
                 <a style={{ textDecoration: "none" }} href="#"><li style={styleo}>Contact</li></a>
             </ul>
-        </div>
+        </div>        
+        let foot = <h2 style={{margin:"550px 530px auto"}}>
+            Made With Love By <span style={{color:"red"}}>Learning Robo</span></h2>
 
-        ReactDOM.render(divref, document.getElementById('root'));
+        ReactDOM.render(<div> {divref} {foot} </div>, document.getElementById('root'));
     </script>
 
 </body>
